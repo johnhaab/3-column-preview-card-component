@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --sedan-bg-color: hsl(31, 77%, 52%);
+    --suv-bg-color: hsl(184, 100%, 22%);
+    --luxury-bg-color: hsl(179, 100%, 13%);
+
+    --title-font: 'Big Shoulders Display', cursive;
+    --body-font: 'Lexend Deca', sans-serif;
+    --body-font-size: 14px;
+
+    --font-color: #fff;
+    --font-color-body: rgba(255, 255, 255, 0.65);
+}
+
+.grid-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 320px 320px 320px 1fr;
+    grid-template-rows: 1fr 250px 1fr 1fr;
+}
+
+.grid-sedans {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 100%;
+    height: 100%;
+    background-color: var(--sedan-bg-color);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sedan-content {
+    padding: 50px;
+}
+
+.grid-suvs {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 100%;
+    height: 100%;
+    background-color: var(--suv-bg-color);
+}
+
+.suv-content {
+    padding: 50px;
+}
+
+.grid-luxury {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 100%;
+    height: 100%;
+    background-color: var(--luxury-bg-color);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxury-content {
+    padding: 50px;
+}
+
+.luxury-content a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: 2px solid var(--font-color);
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: var(--body-font);
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.suv-content a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: 2px solid var(--font-color);
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: var(--body-font);
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.sedan-content a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: 2px solid var(--font-color);
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: var(--body-font);
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.btn {
+    padding-top: 65px;
+
+}
+
+#body {
+    font-size: var(--body-font-size);
+    font-family: var(--body-font);
+    color: var(--font-color-body);
+    font-weight: 300;
+    line-height: 22px;
+}
+
+#title {
+    font-family: var(--title-font);
+    color: var(--font-color);
+    font-weight: 700;
+    font-size: 40px;
+}
