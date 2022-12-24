@@ -1,6 +1,6 @@
 Preview.
 
-![](screenshot.png)
+![](screenshot.pn)
 
 - Live Site URL: [Click me!](https://johnhaab.github.io/3-column-preview-card-component-main/)
 
