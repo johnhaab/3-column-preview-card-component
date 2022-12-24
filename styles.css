@@ -74,10 +74,17 @@
     padding-right: 30px;
     outline: 2px solid var(--font-color);
     text-decoration: none;
-    color: var(--font-color);
+    background-color: var(--font-color);
+    color: var(--luxury-bg-color);
     font-family: var(--body-font);
     border-radius: 30px;
     font-size: 14px;
+}
+
+.luxury-content a:hover {
+    background-color: var(--luxury-bg-color);
+    color: var(--font-color);
+    outline: 2px solid var(--font-color);
 }
 
 .suv-content a {
@@ -87,10 +94,17 @@
     padding-right: 30px;
     outline: 2px solid var(--font-color);
     text-decoration: none;
-    color: var(--font-color);
+    background-color: var(--font-color);
+    color: var(--suv-bg-color);
     font-family: var(--body-font);
     border-radius: 30px;
     font-size: 14px;
+}
+
+.suv-content a:hover {
+    background-color: var(--suv-bg-color);
+    color: var(--font-color);
+    outline: 2px solid var(--font-color);
 }
 
 .sedan-content a {
@@ -98,12 +112,18 @@
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
-    outline: 2px solid var(--font-color);
     text-decoration: none;
-    color: var(--font-color);
+    background-color: var(--font-color);
+    color: var(--sedan-bg-color);
     font-family: var(--body-font);
     border-radius: 30px;
     font-size: 14px;
+}
+
+.sedan-content a:hover {
+    background-color: var(--sedan-bg-color);
+    color: var(--font-color);
+    outline: 2px solid var(--font-color);
 }
 
 .btn {
